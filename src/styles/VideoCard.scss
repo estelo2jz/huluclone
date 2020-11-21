@@ -17,4 +17,10 @@
     height: 300px;
     object-fit: contain;
   }
+  .videoCard__stats {
+    display: none;
+  }
+  &:hover .videoCard__stats {
+    display: inline-flex;
+  }
 }
