@@ -30,6 +30,7 @@ function Results({ selectedOption }) {
     <div className="results">
       {movies.map((movie) => (
         <VideoCard
+          key={movie.id}
           movie={movie}
         />
       ))}

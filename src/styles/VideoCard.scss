@@ -3,6 +3,7 @@
   width: 500px;
   height: 400px;
   padding: 20px;
+  margin: 0;
   transition: transform 100ms;
   &:hover {
     transform: scale(1.009);
@@ -16,6 +17,8 @@
     width: 500px;
     height: 300px;
     object-fit: contain;
+    padding: 0;
+    margin: 0;
   }
   .videoCard__stats {
     display: none;

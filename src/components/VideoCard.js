@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import TextTruncate from 'react-text-truncate';
 import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 
 // base images url, they tell you this in the API very easily, so dig deep to find this.
 const base_url = "https://image.tmdb.org/t/p/original/";
 
-function VideoCard({ movie,  }) {
+// forwardRef means its like a big pointer, it what tell the browser that this is this item and this is this item,
+// refer to this element
+const VideoCard = forwardRef(({ movie }, ref) => {
   return (
-    <div className="videoCard">
-      <img
+    // forwardRef, attach ref={ref} to the videoCard,
+    //  NOW React has a way sayin, This is this VideoCard, This is this VideoCard. 
+    <div ref={ref} className="videoCard">
+       <img
         // some films has a backdrop_path,
         // some dont, so we do this movie.poster_path.
         src={`${base_url}${movie.backdrop_path || movie.poster_path}`}
@@ -30,6 +34,6 @@ function VideoCard({ movie,  }) {
        </p>
     </div>
   )
-}
+});
 
 export default VideoCard
