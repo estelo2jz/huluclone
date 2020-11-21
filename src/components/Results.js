@@ -6,6 +6,8 @@ import requests from '../requests';
 function Results({ selectedOption }) {
   const [movies, setMovies] = useState([1, 2]);
   
+  // selectedOption is outside the useEffect so we have to say that it's a dependecy.
+  // because the useEffect function depends on the selectedOption variable which come from outside.
   useEffect(() => {
     async function fetchData() {
     // asynchronese function means ANYTHING that involves sending information to a server and pulling it in.
@@ -22,7 +24,7 @@ function Results({ selectedOption }) {
 
   // run this code EVERY time Results component loads/mounts, IF the array contains an argument,
   // run this code once when the Results component loads/mounts, IF the array in the bottom is empty.
-  }, [])
+  }, [selectedOption])
 
   return (
     <div className="results">
