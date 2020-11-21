@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+// FLipMove is the animation that each card has.
+import FlipMove from 'react-flip-move';
 import VideoCard from './VideoCard';
 import axios from '../axios';
 import requests from '../requests';
@@ -28,12 +30,14 @@ function Results({ selectedOption }) {
 
   return (
     <div className="results">
-      {movies.map((movie) => (
-        <VideoCard
-          key={movie.id}
-          movie={movie}
-        />
-      ))}
+      <FlipMove>
+        {movies.map((movie) => (
+          <VideoCard
+            key={movie.id}
+            movie={movie}
+          />
+        ))}
+      </FlipMove>
     </div>
   )
 }

@@ -23,7 +23,7 @@ const VideoCard = forwardRef(({ movie }, ref) => {
          line={2}
          element="p"
          truncateText="..."
-         textTruncateChild={<a target="_blank" href="https://console.firebase.google.com/u/0/">Read more</a>}
+         textTruncateChild={<a target="_blank" href="/">Read more</a>}
          text={movie.overview}
        />
        <h2>{movie.title || movie.original_name}</h2>
