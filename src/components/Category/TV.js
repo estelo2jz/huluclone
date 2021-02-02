@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { TVGenreData } from './CategoryData/TVData/TVGenreData';
+import { TVForYouData } from './CategoryData/TVData/TVForYouData';
 import './CategoryStyles/TVCard.scss';
 import './CategoryStyles/TV.scss';
 import './CategoryStyles/TVGenre.scss';
@@ -60,26 +61,27 @@ function TV() {
           <p>for you</p>
         </div>
         <div className="tv__movie-card-container">
-          <div className="tv__movie-card-container-helper">
-            <TVCard />
-            <TVCard />
-            <TVCard />
-            <TVCard />
-            <TVCard />
-            <TVCard />
-            <TVCard />
-            <TVCard />
-            <TVCard />
-            <TVCard />
+          <div className="tv-for-you__outer">
+            {TVForYouData.map((item, index) => {
+              return (
+                  <div key={index} className="tv-for-you__container">
+                    <Link to={item.path} >
+                      <div className="tv-for-you__img">
+                        <img src={item.image} alt="" />
+                      </div>
+                    </Link>
+                  </div>
+              );
+            })}
           </div>
         </div>
-     </div>
+       </div>
       <div className="tv__container">
         <div className="tv__heading">
           <p>popular</p>
         </div>
-      <div className="tv__movie-card-container">
-        <div className="tv__movie-card-container-helper">
+        <div className="tv__movie-card-container"> 
+         <div className="tv__movie-card-container-helper">
           <TVCard />
           <TVCard />
           <TVCard />

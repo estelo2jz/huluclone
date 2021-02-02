@@ -60,6 +60,31 @@
     }
   }
 }
+.tv__container {
+  .tv__movie-card-container {
+    .tv-for-you__outer {
+      display: flex;
+      justify-content: center;
+      height: 300px;
+      .tv-for-you__container {
+        padding: 40px 0px;
+        width: 297px;
+        height: 220px;
+        overflow: hidden;
+        padding: 5px;
+        .tv-for-you__img {
+          img {
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+    }
+        
+  }
+}
 
 // /* Hide scrollbar for Chrome, Safari, and Opera */
 // .tv__movie-card-container::-webkit-scrollbar {
