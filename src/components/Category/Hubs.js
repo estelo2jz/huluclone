@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Account() {
+function Hubs() {
   return (
     <div>
-      <p>Account</p>
+      <p>Hubs</p>
     </div>
   )
 }
 
-export default Account
+export default Hubs

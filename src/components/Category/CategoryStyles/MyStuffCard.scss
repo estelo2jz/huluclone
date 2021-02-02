@@ -1,5 +1,5 @@
-.trending-card__container {
-  background-color: crimson;
+.my-stuff-card__container {
+  // background-color: crimson;
   padding: 5px;
   border-radius: 3px;
   width: 300px;
@@ -8,7 +8,7 @@
   margin: 5px;
   max-height: 30%;
   cursor: pointer;
-  .trending-card__img {
+  .my-stuff-card__img {
     height: 100%;
     overflow: hidden;
 
@@ -23,7 +23,7 @@
       width: 100%; /* for IE 6 */
       
     }
-    .trending-card__info {
+    .my-stuff-card__info {
       position: relative; 
       top: -80px; 
       left: 0; 

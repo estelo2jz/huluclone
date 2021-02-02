@@ -17,26 +17,26 @@ function Header() {
           <HomeIcon />
           <p>Home</p>
         </Link>
-        <Link to="/Trending" className="header__icon">
+        <Link to="/mystuff" className="header__icon">
           <FlashOnIcon />
-          <p>Trending</p>
+          <p>My Stuff</p>
         </Link>
-        <Link to="/verified" className="header__icon">
+        <Link to="/tv" className="header__icon">
           <LiveTvIcon />
-          <p>Verified</p>
+          <p>TV</p>
         </Link>
-        <Link to="/collections" className="header__icon">
+        <Link to="/movies" className="header__icon">
           <VideoLibraryIcon />
-          <p>Collections</p>
+          <p>Movies</p>
         </Link>
-        <Link to="/" className="header__icon">
+        <Link to="/hubs" className="header__icon">
           <SearchIcon />
-          <p>Search</p>
+          <p>Hubs</p>
         </Link>
-        <Link to="/account" className="header__icon">
+        {/* <Link to="/account" className="header__icon">
           <PersonOutlinedIcon />
           <p>Account</p>
-        </Link>
+        </Link> */}
       </div>
       <img src="https://www.hulu.com/static/hitch/s3/2020-08/Hulu_Logo-01_newgreen.png" alt="" />
     </div>

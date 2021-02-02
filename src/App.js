@@ -7,10 +7,10 @@ import Nav from './components/Nav';
 import Results from './components/Results';
 import requests from './requests';
 import Home from './components/Category/Home';
-import Trending from './components/Category/Trending';
-import Verified from './components/Category/Verified';
-import Collections from './components/Category/Collections';
-import Account from './components/Category/Account';
+import MyStuff from './components/Category/MyStuff';
+import TV from './components/Category/TV';
+import Movies from './components/Category/Movies';
+import Hubs from './components/Category/Hubs';
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(requests.fetchTrending);
@@ -23,10 +23,10 @@ function App() {
       </div>
       <Switch>
         <Route path="/home" component={Home} />
-        <Route path="/trending" component={Trending} />
-        <Route path="/verified" component={Verified} />
-        <Route path="/collections" component={Collections} />
-        <Route path="/account" component={Account} />
+        <Route path="/mystuff" component={MyStuff} />
+        <Route path="/tv" component={TV} />
+        <Route path="/movies" component={Movies} />
+        <Route path="/hubs" component={Hubs} />
         {/* <Route path="/trending" component={Trending} /> */}
       </Switch>
     </Router>
