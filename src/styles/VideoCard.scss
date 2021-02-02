@@ -1,7 +1,7 @@
 .videoCard {
   color: white;
   width: 500px;
-  height: 400px;
+  height: 450px;
   padding: 20px;
   margin: 0;
   transition: transform 100ms;
@@ -25,5 +25,18 @@
   }
   &:hover .videoCard__stats {
     display: inline-flex;
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      margin: 0px 2px;
+      text-transform: uppercase;
+    }
+  }
+  svg {
+    width: 20px;
+    // margin-top: 1px;
+    font-size: 1em;
   }
 }
