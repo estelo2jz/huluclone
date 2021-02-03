@@ -20,15 +20,13 @@ function Movies() {
             <div className="movie-genre__outer">
               {MovieGenreData.map((item, index) => {
                 return (
-                    <div key={index} className="movie-genre__container">
-                      <Link to={item.path} >
-                        {/* <div className="movie-genre__img">
-                        </div> */}
-                        <div className="movie-genre__info">
-                          <p>{item.title}</p> 
-                        </div>
-                      </Link>
-                    </div>
+                  <div key={index} className="movie-genre__container">
+                    <Link to={item.path} >
+                      <div className="movie-genre__info">
+                        <p>{item.title}</p> 
+                      </div>
+                    </Link>
+                  </div>
                 );
               })}
             </div>
