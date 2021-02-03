@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
 import { TVGenreData } from './CategoryData/TVData/TVGenreData';
 import { TVForYouData } from './CategoryData/TVData/TVForYouData';
 import { TVNetworksData } from './CategoryData/TVData/TVNetworksData';
@@ -7,6 +8,21 @@ import { TVAdultAnimationData } from './CategoryData/TVData/TVAdultAnimationData
 import { TVRealityData } from './CategoryData/TVData/TVRealityData';
 import { TVHBOData } from './CategoryData/TVData/TVHBOData';
 import { TVShowtimeData } from './CategoryData/TVData/TVShowtimeData';
+
+import { TV90sData } from './CategoryData/TVData/TV90sData';
+import { TVBingData } from './CategoryData/TVData/TVBingData';
+import { TVBooksData } from './CategoryData/TVData/TVBooksData';
+import { TVClassicData } from './CategoryData/TVData/TVClassicData';
+import { TVDubbedData } from './CategoryData/TVData/TVDubbedData';
+import { TVFullSeriesComedyData, TVFullSeriesDramaData } from './CategoryData/TVData/TVFullSeriesData';
+import { TVInvestigationData } from './CategoryData/TVData/TVInvestigationData';
+import { TVNostalgicData } from './CategoryData/TVData/TVNostalgicData';
+import { TVSCIFIData } from './CategoryData/TVData/TVSCIFIData';
+import { TVStaffData } from './CategoryData/TVData/TVStaffData';
+import { TVStarzData } from './CategoryData/TVData/TVStarzData';
+import { TVSuspensefulData } from './CategoryData/TVData/TVSuspensefulData';
+import { TVTerrifyingData } from './CategoryData/TVData/TVTerrifyingData';
+
 import './CategoryStyles/TVCard.scss';
 import './CategoryStyles/TV.scss';
 import './CategoryStyles/TVGenre.scss';
@@ -61,7 +77,7 @@ function TV() {
           </div>
         </div>
       </div>
-      <div className="tv__container">
+      {/* <div className="tv__container">
         <div className="tv__heading">
           <p>for you</p>
         </div>
@@ -91,7 +107,7 @@ function TV() {
             })}
           </div>
         </div>
-       </div>
+       </div> */}
       <div className="tv__container">
         <div className="tv__heading">
           <p>popular</p>
@@ -265,7 +281,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVStarzData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -296,7 +312,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVStaffData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -327,7 +343,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVBingData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -358,7 +374,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVInvestigationData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -389,7 +405,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVSCIFIData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -420,7 +436,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TV90sData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -451,7 +467,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVClassicData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -482,7 +498,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVNostalgicData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -513,7 +529,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVFullSeriesComedyData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -544,7 +560,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVFullSeriesDramaData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -575,7 +591,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVBooksData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -606,7 +622,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVTerrifyingData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -637,7 +653,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVDubbedData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -668,7 +684,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVSuspensefulData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
