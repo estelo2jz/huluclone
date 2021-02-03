@@ -153,12 +153,13 @@
 /* width */
 ::-webkit-scrollbar {
   width: 15px;
-  height: 10px;
+  height: 12px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background-image: linear-gradient(to right, #051421, #042727);
+ 
 }
  
 /* Handle */

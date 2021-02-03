@@ -25,14 +25,15 @@
     }
     .tv-card__info {
       position: relative; 
-      top: -100px; 
+      top: -110px; 
       left: 0; 
       width: 100%;
       color: white;
       letter-spacing: -1px;  
       // background: rgb(0, 0, 0); /* fallback color */
-      // background: rgba(0, 0, 0, 0.7);
-      padding: 5px; 
+      background: rgba(0, 0, 0, 0.5);
+      padding: 15px 5px; 
+      font-size: 1em;
       p {
           color: rgb(255, 255, 255);
           overflow: hidden;
@@ -47,7 +48,7 @@
           overflow: hidden;
           text-overflow: ellipsis;
           display: -webkit-box;
-          -webkit-line-clamp: 2; /* number of lines to show */
+          -webkit-line-clamp: 3; /* number of lines to show */
           -webkit-box-orient: vertical;
         }
       }
