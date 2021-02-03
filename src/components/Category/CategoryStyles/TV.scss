@@ -6,10 +6,11 @@
   padding: 40px 0px;
   .tv__heading {
     color: white;
-    padding: 20px 0px;
+    padding: 5px 0px;
     font-size: 1.3em;
     margin-left: 20px;
     text-transform: uppercase;
+    font-weight: 700;
   }
   .tv__movie-card-container {
     width: 100%;
@@ -77,6 +78,9 @@
         height: 100%;
         overflow: hidden;
         padding: 5px;
+        a {
+          text-decoration: none;
+        }
         .tv-for-you__img {
           overflow: hidden;
           width: 310px;
@@ -97,33 +101,47 @@
           color: white;
           .tv-for-you__info-title {
             padding: 10px 0px;
-            font-size: 1em;
+            font-size: 1.1em;
+            p {
+              color: rgb(255, 255, 255);
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 1; /* number of lines to show */
+              -webkit-box-orient: vertical;
+              padding: 0px 5px;
+              text-transform: capitalize;
+              
+            }
           }
           .tv-for-you__info-bio {
             padding: 5px 0px;
             display: flex;
             align-items: center;
-            font-size: 0.8em;
-          }
-          p {
-            padding: 0px 5px;
-            a {
+            font-size: 0.9em;
+            p {
+              color: rgb(255, 255, 255);
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 1; /* number of lines to show */
+              -webkit-box-orient: vertical;
+              padding: 0px 5px;
             }
           }
         }
-        text-decoration: none;
       }
     }
         
   }
 }
 
-/* Hide scrollbar for Chrome, Safari, and Opera */
-.tv__movie-card-container::-webkit-scrollbar {
-  display: none;
-}
-/* Hide scrollbar for IE, Edge and Firefox */
-.tv__movie-card-container {
-  -ms-overlfow-style: none; 
-  scrollbar-width: none;
-}
+// /* Hide scrollbar for Chrome, Safari, and Opera */
+// .tv__movie-card-container::-webkit-scrollbar {
+//   display: none;
+// }
+// /* Hide scrollbar for IE, Edge and Firefox */
+// .tv__movie-card-container {
+//   -ms-overlfow-style: none; 
+//   scrollbar-width: none;
+// }

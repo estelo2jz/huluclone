@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { TVGenreData } from './CategoryData/TVData/TVGenreData';
 import { TVForYouData } from './CategoryData/TVData/TVForYouData';
+import { TVNetworksData } from './CategoryData/TVData/TVNetworksData';
 import { TVAdultAnimationData } from './CategoryData/TVData/TVAdultAnimationData';
 import { TVRealityData } from './CategoryData/TVData/TVRealityData';
 import { TVHBOData } from './CategoryData/TVData/TVHBOData';
@@ -107,6 +108,31 @@ function TV() {
           <TVCard />
           <TVCard />
           <TVCard />
+        </div>
+      </div>
+      <div className="tv__container">
+        <div className="tv__heading">
+          <p>all networks</p>
+        </div>
+        <div className="tv__movie-card-container">
+          <div className="tv-for-you__outer">
+              {TVNetworksData.map((item, index) => {
+                return (
+                  <div key={index} className="tv-for-you__container">
+                    <Link to={item.path} >
+                      <div className="tv-for-you__img">
+                        <img src={item.image} alt="adult-animation-img" />
+                      </div>
+                      <div className="tv-for-you__info">
+                        <div className="tv-for-you__info-title">
+                          <p>{item.title}</p>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                );
+              })}
+          </div>
         </div>
       </div>
       <div className="tv__container">
