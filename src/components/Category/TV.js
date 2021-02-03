@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { TVGenreData } from './CategoryData/TVData/TVGenreData';
 import { TVForYouData } from './CategoryData/TVData/TVForYouData';
 import { TVAdultAnimationData } from './CategoryData/TVData/TVAdultAnimationData';
+import { TVRealityData } from './CategoryData/TVData/TVRealityData';
+import { TVHBOData } from './CategoryData/TVData/TVHBOData';
+import { TVShowtimeData } from './CategoryData/TVData/TVShowtimeData';
 import './CategoryStyles/TVCard.scss';
 import './CategoryStyles/TV.scss';
 import './CategoryStyles/TVGenre.scss';
@@ -143,7 +146,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVRealityData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -174,7 +177,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVHBOData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -205,7 +208,7 @@ function TV() {
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
+              {TVShowtimeData.map((item, index) => {
                 return (
                   <div key={index} className="tv-for-you__container">
                     <Link to={item.path} >
@@ -636,99 +639,6 @@ function TV() {
                 <div className="tv__container">
           <div className="tv__heading">
             <p>suspenseful tv dramas</p>
-          </div>
-          <div className="tv__movie-card-container">
-            <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
-                return (
-                  <div key={index} className="tv-for-you__container">
-                    <Link to={item.path} >
-                      <div className="tv-for-you__img">
-                        <img src={item.image} alt="" />
-                      </div>
-                      <div className="tv-for-you__info">
-                        <div className="tv-for-you__info-title">
-                          <p>{item.title}</p>
-                        </div>
-                        <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-                <div className="tv__container">
-          <div className="tv__heading">
-            <p>adult animation</p>
-          </div>
-          <div className="tv__movie-card-container">
-            <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
-                return (
-                  <div key={index} className="tv-for-you__container">
-                    <Link to={item.path} >
-                      <div className="tv-for-you__img">
-                        <img src={item.image} alt="" />
-                      </div>
-                      <div className="tv-for-you__info">
-                        <div className="tv-for-you__info-title">
-                          <p>{item.title}</p>
-                        </div>
-                        <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-                <div className="tv__container">
-          <div className="tv__heading">
-            <p>adult animation</p>
-          </div>
-          <div className="tv__movie-card-container">
-            <div className="tv-for-you__outer">
-              {TVForYouData.map((item, index) => {
-                return (
-                  <div key={index} className="tv-for-you__container">
-                    <Link to={item.path} >
-                      <div className="tv-for-you__img">
-                        <img src={item.image} alt="" />
-                      </div>
-                      <div className="tv-for-you__info">
-                        <div className="tv-for-you__info-title">
-                          <p>{item.title}</p>
-                        </div>
-                        <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-        <div className="tv__container">
-          <div className="tv__heading">
-            <p>adult animation</p>
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">

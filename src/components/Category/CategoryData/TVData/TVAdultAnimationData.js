@@ -7,7 +7,7 @@ export const TVAdultAnimationData = [
     title: "American Dad",
     rated: "TV14",
     genre: "Comedy, Animation",
-    year: "(2019)",
+    year: "(2012)",
     series: "TV Series"
   },
   {
@@ -16,7 +16,7 @@ export const TVAdultAnimationData = [
     title: "American Dad",
     rated: "TV14",
     genre: "Comedy, Animation",
-    year: "(2019)",
+    year: "(2012)",
     series: "TV Series"
   },
   {
@@ -25,7 +25,7 @@ export const TVAdultAnimationData = [
     title: "American Dad",
     rated: "TV14",
     genre: "Comedy, Animation",
-    year: "(2019)",
+    year: "(2012)",
     series: "TV Series"
   },
   {
@@ -34,7 +34,7 @@ export const TVAdultAnimationData = [
     title: "American Dad",
     rated: "TV14",
     genre: "Comedy, Animation",
-    year: "(2019)",
+    year: "(2012)",
     series: "TV Series"
   },
   {
@@ -43,7 +43,7 @@ export const TVAdultAnimationData = [
     title: "American Dad",
     rated: "TV14",
     genre: "Comedy, Animation",
-    year: "(2019)",
+    year: "(2012)",
     series: "TV Series"
   },
     {
@@ -52,7 +52,7 @@ export const TVAdultAnimationData = [
     title: "American Dad",
     rated: "TV14",
     genre: "Comedy, Animation",
-    year: "(2019)",
+    year: "(2012)",
     series: "TV Series"
   },
   {
@@ -61,7 +61,7 @@ export const TVAdultAnimationData = [
     title: "American Dad",
     rated: "TV14",
     genre: "Comedy, Animation",
-    year: "(2019)",
+    year: "(2012)",
     series: "TV Series"
   },
   {
@@ -70,7 +70,7 @@ export const TVAdultAnimationData = [
     title: "American Dad",
     rated: "TV14",
     genre: "Comedy, Animation",
-    year: "(2019)",
+    year: "(2012)",
     series: "TV Series"
   },
   {
@@ -79,7 +79,7 @@ export const TVAdultAnimationData = [
     title: "American Dad",
     rated: "TV14",
     genre: "Comedy, Animation",
-    year: "(2019)",
+    year: "(2012)",
     series: "TV Series"
   },
 ]

@@ -6,7 +6,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -15,7 +15,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -24,7 +24,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -33,7 +33,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -42,7 +42,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -51,7 +51,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },  
@@ -60,7 +60,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -69,7 +69,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -78,7 +78,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -87,7 +87,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -96,7 +96,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -105,7 +105,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -114,7 +114,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
@@ -123,7 +123,7 @@ export const TVForYouData = [
     path: "/tv",
     title: "It's Always Sunny in Philadelphia",
     rated: "TV14",
-    genre: "Comedy, Animation",
+    genre: "Comedy",
     year: "(2019)",
     series: "TV Series"
   },
