@@ -33,6 +33,14 @@
       // background: rgb(0, 0, 0); /* fallback color */
       // background: rgba(0, 0, 0, 0.7);
       padding: 5px; 
+      p {
+          color: rgb(255, 255, 255);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1; /* number of lines to show */
+          -webkit-box-orient: vertical;
+        }
       .tv-card__info-bio {
         p {
           color: rgb(255, 255, 255);

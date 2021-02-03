@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { TVGenreData } from './CategoryData/TVData/TVGenreData';
 import { TVForYouData } from './CategoryData/TVData/TVForYouData';
+import { TVAdultAnimationData } from './CategoryData/TVData/TVAdultAnimationData';
 import './CategoryStyles/TVCard.scss';
 import './CategoryStyles/TV.scss';
 import './CategoryStyles/TVGenre.scss';
@@ -10,14 +11,14 @@ function TVCard() {
   return (
     <div className="tv-card__container">
       <div className="tv-card__img">
-        <img src="https://images.pexels.com/photos/6497049/pexels-photo-6497049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" />
+        <img src="https://images-na.ssl-images-amazon.com/images/I/91UjyAWXgpL._RI_.jpg" alt="" />
         <div className="tv-card__info">
-          <div>
-            <p>TV Card</p>
+          <div className="tv-card__info-title">
+            <p>Ready Player One</p>
           </div>
           <div className="tv-card__info-bio">
             <p>
-            From prolific creators Ryan Murphy and Brad Falchuk, new procedural drama 9-1-1 is a fast-paced exploration into the lives and careers of first responders – cops, paramedics, firefighters – the people who put their lives on the line to save others.
+              From prolific creators Ryan Murphy and Brad Falchuk, new procedural drama 9-1-1 is a fast-paced exploration into the lives and careers of first responders – cops, paramedics, firefighters – the people who put their lives on the line to save others.
             </p>
           </div>
           <div>
@@ -111,28 +112,28 @@ function TV() {
         </div>
         <div className="tv__movie-card-container">
           <div className="tv-for-you__outer">
-            {TVForYouData.map((item, index) => {
-              return (
-                <div key={index} className="tv-for-you__container">
-                  <Link to={item.path} >
-                    <div className="tv-for-you__img">
-                      <img src={item.image} alt="" />
-                    </div>
-                    <div className="tv-for-you__info">
-                      <div className="tv-for-you__info-title">
-                        <p>{item.title}</p>
+              {TVAdultAnimationData.map((item, index) => {
+                return (
+                  <div key={index} className="tv-for-you__container">
+                    <Link to={item.path} >
+                      <div className="tv-for-you__img">
+                        <img src={item.image} alt="adult-animation-img" />
                       </div>
-                      <div className="tv-for-you__info-bio">
-                        <p>{item.rated}</p> &#8226;
-                        <p>{item.genre}</p> &#8226;
-                        <p>{item.series}</p>
-                        <p>{item.year}</p>
+                      <div className="tv-for-you__info">
+                        <div className="tv-for-you__info-title">
+                          <p>{item.title}</p>
+                        </div>
+                        <div className="tv-for-you__info-bio">
+                          <p>{item.rated}</p> &#8226;
+                          <p>{item.genre}</p> &#8226;
+                          <p>{item.series}</p>
+                          <p>{item.year}</p>
+                        </div>
                       </div>
-                    </div>
-                  </Link>
-                </div>
-              );
-            })}
+                    </Link>
+                  </div>
+                );
+              })}
           </div>
         </div>
       </div>
