@@ -2,121 +2,121 @@ import React from 'react';
 
 export const TVGenreData = [
   {
-    title: "action",
+    title: "Action",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "adult animation",
+    title: "Adult Animation",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "adventure",
+    title: "Adventure",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "animals & nature",
+    title: "Animals & Nature",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "anime",
+    title: "Anime",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "black stories",
+    title: "Black Stories",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "british TV",
+    title: "British TV",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "comedy",
+    title: "Comedy",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "cooking & food",
+    title: "Cooking & Food",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "crime",
+    title: "Crime",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "documentary",
+    title: "Documentary",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "drama",
+    title: "Drama",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "family",
+    title: "Family",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "fantasy",
+    title: "Fantasy",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "game shows",
+    title: "Game Shows",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "horror",
+    title: "Horror",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "international",
+    title: "International",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "kids",
+    title: "Kids",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "late night",
+    title: "Late Night",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "latino",
+    title: "Latino",
     image: "",
     channel: "Details",
     path: "/tv"
@@ -127,66 +127,66 @@ export const TVGenreData = [
     channel: "Details",
     path: "/tv"
   },  {
-    title: "lifestyle & culture",
+    title: "Lifestyle & Culture",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "mystery",
+    title: "Mystery",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "news",
+    title: "News",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "reality",
+    title: "Reality",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "romance",
+    title: "Romance",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "science fiction",
+    title: "Science Fiction",
     image: "",
     channel: "Details",
     path: "/tv"
   },  {
-    title: "sitcom",
+    title: "Sitcom",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "sketch comedy",
+    title: "Sketch Comedy",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "talk & interview",
+    title: "Talk & Interview",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "teen",
+    title: "Teen",
     image: "",
     channel: "Details",
     path: "/tv"
   },
   {
-    title: "thriller",
+    title: "Thriller",
     image: "",
     channel: "Details",
     path: "/tv"
