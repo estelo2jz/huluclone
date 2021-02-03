@@ -120,8 +120,8 @@
           }
           .tv-for-you__info-bio {
             padding: 5px 0px;
-            display: flex;
-            align-items: center;
+            // display: flex;
+            // align-items: center;
             font-size: 0.9em;
             p {
               color: rgb(255, 255, 255);
@@ -149,3 +149,24 @@
 //   -ms-overlfow-style: none; 
 //   scrollbar-width: none;
 // }
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #36ca94; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(85, 85, 85); 
+}

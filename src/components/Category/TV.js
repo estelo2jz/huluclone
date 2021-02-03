@@ -169,10 +169,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                        <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -200,10 +197,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -231,10 +225,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -262,10 +253,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -293,10 +281,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -324,10 +309,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -355,10 +337,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -386,10 +365,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -417,10 +393,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -448,10 +421,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -479,10 +449,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -510,10 +477,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -541,10 +505,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -572,10 +533,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -603,10 +561,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -634,10 +589,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -665,10 +617,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>
@@ -696,10 +645,7 @@ function TV() {
                           <p>{item.title}</p>
                         </div>
                         <div className="tv-for-you__info-bio">
-                          <p>{item.rated}</p> &#8226;
-                          <p>{item.genre}</p> &#8226;
-                          <p>{item.series}</p>
-                          <p>{item.year}</p>
+                          <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
                         </div>
                       </div>
                     </Link>

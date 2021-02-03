@@ -1,10 +1,187 @@
 export const TVFullSeriesComedyData = [
   {
-    image: "https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/11/american-dad-rupture-delight.jpg",
+    image: "",
     path: "/tv",
-    title: "American Dad",
-    rated: "TV14",
-    genre: "Comedy, Animation",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+    {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },  
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
     year: "(2012)",
     series: "TV Series"
   },
@@ -12,11 +189,144 @@ export const TVFullSeriesComedyData = [
 
 export const TVFullSeriesDramaData = [
   {
-    image: "https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/11/american-dad-rupture-delight.jpg",
+    image: "",
     path: "/tv",
-    title: "American Dad",
-    rated: "TV14",
-    genre: "Comedy, Animation",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+    {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },  
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
+    year: "(2012)",
+    series: "TV Series"
+  },
+  {
+    image: "",
+    path: "/tv",
+    title: "",
+    rated: "TVMA",
+    genre: "Drama",
     year: "(2012)",
     series: "TV Series"
   },
