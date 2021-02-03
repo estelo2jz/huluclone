@@ -6,6 +6,7 @@ import FlashOnIcon from '@material-ui/icons/FlashOn';
 import LiveTvIcon from '@material-ui/icons/LiveTv';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import PersonOutlinedIcon from '@material-ui/icons/PersonOutlined';
+import RssFeedIcon from '@material-ui/icons/RssFeed';
 
 function Header() {
   return (
@@ -17,10 +18,10 @@ function Header() {
           <HomeIcon />
           <p>Home</p>
         </Link>
-        <Link to="/mystuff" className="header__icon">
+        {/* <Link to="/mystuff" className="header__icon">
           <FlashOnIcon />
           <p>My Stuff</p>
-        </Link>
+        </Link> */}
         <Link to="/tv" className="header__icon">
           <LiveTvIcon />
           <p>TV</p>
@@ -29,9 +30,9 @@ function Header() {
           <VideoLibraryIcon />
           <p>Movies</p>
         </Link>
-        <Link to="/hubs" className="header__icon">
-          <SearchIcon />
-          <p>Hubs</p>
+        <Link to="/networks" className="header__icon">
+          <RssFeedIcon />
+          <p>NetWorks</p>
         </Link>
         {/* <Link to="/account" className="header__icon">
           <PersonOutlinedIcon />

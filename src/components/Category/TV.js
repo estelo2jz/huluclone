@@ -52,6 +52,9 @@ function TV() {
   return (
     <div>
       <div className="tv__container">
+        <div className="tv__title">
+          <p>TV Shows</p>
+        </div>
         <div className="tv__heading">
           <p>genres</p>
         </div>

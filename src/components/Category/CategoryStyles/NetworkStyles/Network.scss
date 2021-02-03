@@ -1,17 +1,17 @@
-.tv__container {
+.network__container {
   height: 100%;
   width: 100%;
   width: 100%;
   background-image: linear-gradient(to right, #051421, #042727);
   padding: 40px 0px;
-  .tv__title {
+  .network__title {
     margin-left: 20px;
     color: rgb(209, 208, 208);
     font-size: 4em;
     font-weight: 200;
     margin-bottom: 50px;
   }
-  .tv__heading {
+  .network__heading {
     color: white;
     padding: 5px 0px;
     font-size: 1.3em;
@@ -19,14 +19,14 @@
     text-transform: uppercase;
     font-weight: 700;
   }
-  .tv__movie-card-container {
+  .network__movie-card-container {
     width: 100%;
     overflow: hidden;
     display: flex;
     overflow-x: scroll;
       background-image: linear-gradient(to right, #051421, #042727);
     // padding: 10px;
-    .tv__movie-card-container-helper {
+    .network__movie-card-container-helper {
       display: flex;
       // overflow-x: scroll;
       // background-color: green;
@@ -36,21 +36,21 @@
       // GENRESSSSSSSSSSSSS
       // width: 100%;
       // background-image: linear-gradient(to right, #051421, #042727);
-      .tv-genre__outer {
+      .network-genre__outer {
         display: flex;
         // justify-content: center;
         // align-items: center;
         height: 100%;
         padding: 40px 0px;
         overflow: hidden;
-        .tv-genre__container {
+        .network-genre__container {
           // background-color: crimson;
           padding: 5px;
-          border-radius: 5px;
+          border-radius: 3px;
           width: 300px;
           // background-color: red;
           overflow: hidden;
-          .tv-genre__info {
+          .network-genre__info {
             font-size: 1.7em;
             background-color: rgb(0, 0, 0);
             padding: 50px 30px;
@@ -68,15 +68,15 @@
     }
   }
 }
-.tv__container {
-  .tv__movie-card-container {
-    .tv-for-you__outer {
+.network__container {
+  .network__movie-card-container {
+    .network-for-you__outer {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 330px;
       // background-color: rebeccapurple;
-      .tv-for-you__container {
+      .network-for-you__container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -88,7 +88,7 @@
         a {
           text-decoration: none;
         }
-        .tv-for-you__img {
+        .network-for-you__img {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -104,13 +104,13 @@
             background-repeat: no-repeat;
           }
         }
-        .tv-for-you__info {
+        .network-for-you__info {
           display: flex;
           // justify-content: center;
           flex-direction: column;
           // font-size: 0.9em;
           color: white;
-          .tv-for-you__info-title {
+          .network-for-you__info-title {
             padding: 10px 0px;
             font-size: 1.1em;
             p {
@@ -125,7 +125,7 @@
               
             }
           }
-          .tv-for-you__info-bio {
+          .network-for-you__info-bio {
             padding: 5px 0px;
             // display: flex;
             // align-items: center;
@@ -148,11 +148,11 @@
 }
 
 // /* Hide scrollbar for Chrome, Safari, and Opera */
-// .tv__movie-card-container::-webkit-scrollbar {
+// .network__movie-card-container::-webkit-scrollbar {
 //   display: none;
 // }
 // /* Hide scrollbar for IE, Edge and Firefox */
-// .tv__movie-card-container {
+// .network__movie-card-container {
 //   -ms-overlfow-style: none; 
 //   scrollbar-width: none;
 // }

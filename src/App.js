@@ -10,7 +10,7 @@ import Home from './components/Category/Home';
 import MyStuff from './components/Category/MyStuff';
 import TV from './components/Category/TV';
 import Movies from './components/Category/Movies';
-import Hubs from './components/Category/Hubs';
+import Networks from './components/Category/Networks';
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(requests.fetchTrending);
@@ -26,7 +26,7 @@ function App() {
         <Route path="/mystuff" component={MyStuff} />
         <Route path="/tv" component={TV} />
         <Route path="/movies" component={Movies} />
-        <Route path="/hubs" component={Hubs} />
+        <Route path="/networks" component={Networks} />
         {/* <Route path="/trending" component={Trending} /> */}
       </Switch>
     </Router>
