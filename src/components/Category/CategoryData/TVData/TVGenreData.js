@@ -1,17 +1,16 @@
-import React from 'react';
-
 export const TVGenreData = [
   {
     title: "Action",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/genre/action",
+    desc: "hello"
   },
   {
     title: "Adult Animation",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/genre/adultanimation"
   },
   {
     title: "Adventure",
