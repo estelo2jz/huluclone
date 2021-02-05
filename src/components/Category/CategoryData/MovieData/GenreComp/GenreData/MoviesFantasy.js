@@ -1,4 +1,4 @@
-export const FanrasyMovieData = [
+export const FantasyMovieData = [
   {
     image: "http://www.essentialkids.com.au/content/dam/images/g/k/p/d/b/u/image.gallery.galleryLandscape.620x414.gkpe40.png/1446609264472.jpg",
     path: "/movies/adultanimation",

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ActionMovieData } from './GenreData/MoviesAction';
+import { TalkInterviewMovieData } from './GenreData/MoviesTalkInterview';
 import "../../../CategoryStyles/TVStyles/TVGenre.scss";
 
 function GenreAction() {
@@ -12,7 +12,7 @@ function GenreAction() {
         </div>
         <div className="genre-main__card-container">
           <div className="genre-main__card-outer">
-            {ActionMovieData.map((item, index) => {
+            {TalkInterviewMovieData.map((item, index) => {
               return (
                 <div key={index} className="genre-main__card">
                   <Link to={item.path} >
