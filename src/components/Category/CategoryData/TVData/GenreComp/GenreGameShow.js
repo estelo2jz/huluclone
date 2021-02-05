@@ -8,7 +8,7 @@ function GenreGameShow() {
     <div className="genre-main__container">
       <div className="genre-main__outer">
         <div className="genre-main__heading">
-          <p>action</p>
+          <p>gameshows</p>
         </div>
         <div className="genre-main__card-container">
           <div className="genre-main__card-outer">
