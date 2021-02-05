@@ -58,12 +58,12 @@ function App() {
   return (
     <Router>
         <Header />
-      <div className="app">
-        {/* <Nav setSelectedOption={setSelectedOption} /> */}
-        {/* <Results selectedOption={selectedOption} />  */}
-      </div>
+        <div className="app">
+          {/* <Nav setSelectedOption={setSelectedOption} /> */}
+          {/* <Results selectedOption={selectedOption} />  */}
+        </div>
+        <Route exact path="/" component={Home} />
       <Switch>
-        <Route exact path="/home" component={Home} />
         <Route exact path="/mystuff" component={MyStuff} />
         <Route exact path="/tv" component={TV} />
         <Route exact path="/movies" component={Movies} />

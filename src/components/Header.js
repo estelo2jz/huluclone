@@ -14,7 +14,7 @@ function Header() {
       <div className="header__icons">
       {/* putting div puts display: inline; */}
       {/* --active */}
-        <Link to="/home" className="header__icon header__icon">
+        <Link to="/" className="header__icon header__icon">
           <HomeIcon />
           <p>Home</p>
         </Link>
