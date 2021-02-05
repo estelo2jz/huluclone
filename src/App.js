@@ -12,6 +12,8 @@ import TV from './components/Category/TV';
 import Movies from './components/Category/Movies';
 import Networks from './components/Category/Networks';
 
+import TVTemplate from './components/Category/CategoryData/TVData/TVTemplate';
+
 // GENRE COMPONENTS
 import GenreComponent from './components/Category/CategoryData/TVData/GenreComponent';
 import GenreAction from './components/Category/CategoryData/TVData/GenreComp/GenreAction';
@@ -192,6 +194,12 @@ function App() {
         <Route exact path="/tv/thriller" component={GenreComponent}>
           <GenreComponent />
           <GenreThriller />
+        </Route>
+
+
+        <Route exact path="/tv/americandad" component={TVTemplate}>
+          <TVTemplate />
+          {/* <GenreThriller /> */}
         </Route>
       </Switch>
     </Router>

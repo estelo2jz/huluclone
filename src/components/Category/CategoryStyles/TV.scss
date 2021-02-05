@@ -3,7 +3,8 @@
   width: 100%;
   width: 100%;
   background-image: linear-gradient(to right, #051421, #042727);
-  padding: 40px 0px;
+  padding: 0px 0px;
+  padding-top: 30px;
   .tv__title {
     margin-left: 20px;
     color: rgb(209, 208, 208);
@@ -13,7 +14,8 @@
   }
   .tv__heading {
     color: white;
-    padding: 5px 0px;
+    padding: 0px 0px;
+    padding-top: 5px;
     font-size: 1.3em;
     margin-left: 20px;
     text-transform: uppercase;
@@ -41,7 +43,7 @@
         // justify-content: center;
         // align-items: center;
         height: 100%;
-        padding: 40px 0px;
+        padding: 10px 0px;
         overflow: hidden;
         .tv-genre__container {
           // background-color: crimson;
@@ -74,7 +76,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 330px;
+      // height: 330px;
+      height: 100%;
       // background-color: rebeccapurple;
       .tv-for-you__container {
         display: flex;
@@ -160,7 +163,7 @@
 /* width */
 ::-webkit-scrollbar {
   width: 15px;
-  height: 12px;
+  height: 7px;
 }
 
 /* Track */
