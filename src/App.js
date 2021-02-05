@@ -14,7 +14,7 @@ import Networks from './components/Category/Networks';
 
 import TVTemplate from './components/Category/CategoryData/TVData/TVTemplate';
 
-// GENRE COMPONENTS
+// TV GENRE COMPONENTS
 import GenreComponent from './components/Category/CategoryData/TVData/GenreComponent';
 import GenreAction from './components/Category/CategoryData/TVData/GenreComp/GenreAction';
 import GenreAdultAnimation from './components/Category/CategoryData/TVData/GenreComp/GenreAdultAnimation';
@@ -48,6 +48,10 @@ import GenreSitcom from './components/Category/CategoryData/TVData/GenreComp/Gen
 import GenreTalkInterview from './components/Category/CategoryData/TVData/GenreComp/GenreTalkInterview';
 import GenreTeen from './components/Category/CategoryData/TVData/GenreComp/GenreTeen';
 import GenreThriller from './components/Category/CategoryData/TVData/GenreComp/GenreThriller';
+
+// MOVIE Genre Components
+import MovieGenreComponent from './components/Category/CategoryData/MovieData/GenreComponent';
+import MovieGenreAction from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreAction';
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(requests.fetchTrending);
@@ -197,10 +201,16 @@ function App() {
         </Route>
 
 
-        <Route exact path="/tv/americandad" component={TVTemplate}>
-          <TVTemplate />
-          {/* <GenreThriller /> */}
+        {/* Movie routing */}
+        <Route exact path="/movies/action" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreAction />
         </Route>
+
+        {/* <Route exact path="/tv/americandad" component={TVTemplate}>
+          <TVTemplate />
+          <GenreThriller />
+        </Route> */}
       </Switch>
     </Router>
   );

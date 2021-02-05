@@ -3,7 +3,7 @@ import React from 'react';
 export const TVAdultAnimationData = [
   {
     image: "https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/11/american-dad-rupture-delight.jpg",
-    path: "/tv/americandad",
+    path: "/tv",
     title: "American Dad",
     rated: "TV14",
     genre: "Comedy, Animation",

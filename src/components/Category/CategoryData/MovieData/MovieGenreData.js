@@ -4,7 +4,7 @@ export const MovieGenreData = [
     title: "Action Movies",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjlSyj1lyfiJn6vVp0h2Q0GfsET-mnKe_nSQ&usqp=CAU",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/action"
   },
   {
     title: "Adult Animation Movies",
