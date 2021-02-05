@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import { ActionData } from './GenreData/Action';
 import "../../../CategoryStyles/TVStyles/TVGenre.scss";
 
-function GenreAdultAnimation() {
+function GenreDocumentary() {
   return (
     <div className="genre-main__container">
       <div className="genre-main__outer">
         <div className="genre-main__heading">
-          <p>adult animation</p>
+          <p>action</p>
         </div>
         <div className="genre-main__card-container">
           <div className="genre-main__card-outer">
@@ -38,4 +38,4 @@ function GenreAdultAnimation() {
   )
 }
 
-export default GenreAdultAnimation
+export default GenreDocumentary

@@ -25,7 +25,6 @@ import { TVTerrifyingData } from './CategoryData/TVData/TVTerrifyingData';
 
 import './CategoryStyles/TVCard.scss';
 import './CategoryStyles/TV.scss';
-import './CategoryStyles/TVGenre.scss';
 
 function TVCard({title, desc, movieImg}) {
   return (

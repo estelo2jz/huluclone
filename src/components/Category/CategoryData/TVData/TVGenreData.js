@@ -3,191 +3,191 @@ export const TVGenreData = [
     title: "Action",
     image: "",
     channel: "Details",
-    path: "/tv/genre/action",
+    path: "/tv/action",
     desc: "hello"
   },
   {
     title: "Adult Animation",
     image: "",
     channel: "Details",
-    path: "/tv/genre/adultanimation"
+    path: "/tv/adultanimation"
   },
   {
     title: "Adventure",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/adventure"
   },
   {
     title: "Animals & Nature",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/animals&nature"
   },
   {
     title: "Anime",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/anime"
   },
   {
     title: "Black Stories",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/blackstories"
   },
   {
     title: "British TV",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/britishTV"
   },
   {
     title: "Comedy",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/comedy"
   },
   {
     title: "Cooking & Food",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/cooking&food"
   },
   {
     title: "Crime",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/crime"
   },
   {
     title: "Documentary",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/documentary"
   },
   {
     title: "Drama",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/drama"
   },
   {
     title: "Family",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/family"
   },
   {
     title: "Fantasy",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/fantasy"
   },
   {
     title: "Game Shows",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/gameshows"
   },
   {
     title: "Horror",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/horror"
   },
   {
     title: "International",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/international"
   },
   {
     title: "Kids",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/kids"
   },
   {
     title: "Late Night",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/latenights"
   },
   {
     title: "Latino",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/latino"
   },
   {
     title: "LGBTQ+",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/lgbtq+"
   },  {
     title: "Lifestyle & Culture",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/lifestyle&culture"
   },
   {
     title: "Mystery",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/mystery"
   },
   {
     title: "News",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/news"
   },
   {
     title: "Reality",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/reality"
   },
   {
     title: "Romance",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/romance"
   },
   {
     title: "Science Fiction",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/sciencefiction"
   },  {
     title: "Sitcom",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/sitcom"
   },
   {
     title: "Sketch Comedy",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/sketchcomedy"
   },
   {
     title: "Talk & Interview",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/talk&interview"
   },
   {
     title: "Teen",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/teen"
   },
   {
     title: "Thriller",
     image: "",
     channel: "Details",
-    path: "/tv"
+    path: "/tv/thriller"
   },
 ]
