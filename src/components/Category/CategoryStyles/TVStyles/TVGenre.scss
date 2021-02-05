@@ -54,6 +54,10 @@
 
           }
         }
+        .genre-main__card:hover {
+          background: rgba(78, 73, 73, 0.6);
+          transition: all 0.3s ease;
+        }
       }
     }
   }
