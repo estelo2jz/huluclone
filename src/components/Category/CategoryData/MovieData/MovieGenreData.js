@@ -10,178 +10,178 @@ export const MovieGenreData = [
     title: "Adult Animation Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/adultanimation"
   },
   {
     title: "Adventure Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/adventure"
   },
   {
     title: "Animals & Nature Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/animals&nature"
   },
   {
     title: "Anime Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/anime"
   },
   {
     title: "Black Stories Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/blackstories"
   },
   {
     title: "British TV Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/britishTV"
   },
   {
     title: "Comedy Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/comedy"
   },
   {
     title: "Cooking & Food Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/cooking&food"
   },
   {
     title: "Crime Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/crime"
   },
   {
     title: "Documentary Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/documentary"
   },
   {
     title: "Drama Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/drama"
   },
   {
     title: "Family Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/family"
   },
   {
     title: "Fantasy Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/fantasy"
   },
   {
     title: "Horror Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/horror"
   },
   {
     title: "International Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/international"
   },
   {
     title: "Kids Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/kids"
   },
   {
-    title: "Late Night Movies",
+    title: "Latenight Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/latenight"
   },
   {
     title: "Latino Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/latino"
   },
   {
     title: "LGBTQ+ Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/lgbtq+"
   },  {
     title: "Lifestyle & Culture Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/lifestyle&culture"
   },
   {
     title: "Mystery Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/mystery"
   },
   {
     title: "News Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/news"
   },
   {
     title: "Reality Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/reality"
   },
   {
     title: "Romance Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/romance"
   },
   {
     title: "Science Fiction Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/sciencefiction"
   },  {
     title: "Sitcom Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/sitcom"
   },
   {
     title: "Sketch Comedy Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/sketchcomedy"
   },
   {
     title: "Talk & Interview Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/talk&interview"
   },
   {
     title: "Teen Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/teen"
   },
   {
     title: "Thriller Movies",
     image: "",
     channel: "Details",
-    path: "/movies"
+    path: "/movies/thriller"
   },
 ]

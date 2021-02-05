@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import HomeIcon from '@material-ui/icons/Home';
 import SearchIcon from '@material-ui/icons/Search';
 import FlashOnIcon from '@material-ui/icons/FlashOn';
+import PersonOutlinedIcon from '@material-ui/icons/PersonOutlined';
 import LiveTvIcon from '@material-ui/icons/LiveTv';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
-import PersonOutlinedIcon from '@material-ui/icons/PersonOutlined';
 import RssFeedIcon from '@material-ui/icons/RssFeed';
 
 function Header() {

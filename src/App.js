@@ -52,6 +52,38 @@ import GenreThriller from './components/Category/CategoryData/TVData/GenreComp/G
 // MOVIE Genre Components
 import MovieGenreComponent from './components/Category/CategoryData/MovieData/GenreComponent';
 import MovieGenreAction from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreAction';
+import MovieGenreAdultAnimation from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreAdultAnimation';
+import MovieGenreAdventure from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreAdventure';
+import MovieGenreAnimalsNature from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreAnimalsNature';
+import MovieGenreAnime from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreAnime';
+import MovieGenreBlackStories from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreBlackStories';
+import MovieGenreBritishTV from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreBritishTV';
+import MovieGenreComedy from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreComedy';
+import MovieGenreCookingFood from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreCookingFood';
+import MovieGenreCrime from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreCrime';
+import MovieGenreDocumentary from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreDocumentary';
+import MovieGenreDrama from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreDrama';
+import MovieGenreFamily from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreFamily';
+import MovieGenreFantasy from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreFantasy';
+import MovieGenreHorror from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreHorror';
+import MovieGenreInternational from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreInternational';
+import MovieGenreKids from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreKids';
+import MovieGenreLatenight from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreLatenight';
+import MovieGenreLatino from './components/Category/CategoryData/MovieData/GenreComp/MoviesGenreLatino';
+import MovieGenreLGBTQ from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreLGBTQ';
+import MovieGenreLifestyleCulture from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreLifestyleCulture';
+import MovieGenreMystery from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreMystery';
+import MovieGenreNews from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreNews';
+import MovieGenreReality from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreReality';
+import MovieGenreRomance from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreRomance';
+import MovieGenreScienceFiction from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreScienceFiction';
+import MovieGenreSitcom from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreSitcom';
+import MovieGenreSketchComedy from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreSketchComedy';
+import MovieGenreTalkInterview from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreTalkInterview';
+import MovieGenreTeen from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreTeen';
+import MovieGenreThriller from './components/Category/CategoryData/MovieData/GenreComp//MoviesGenreThriller';
+
+
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(requests.fetchTrending);
@@ -205,6 +237,126 @@ function App() {
         <Route exact path="/movies/action" component={MovieGenreComponent}>
           <MovieGenreComponent />
           <MovieGenreAction />
+        </Route>
+        <Route exact path="/movies/adultanimation" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreAdultAnimation />
+        </Route>
+        <Route exact path="/movies/adventure" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreAdventure />
+        </Route>
+        <Route exact path="/movies/animals&nature" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreAnimalsNature />
+        </Route>
+        <Route exact path="/movies/anime" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreAnime />
+        </Route>
+        <Route exact path="/movies/blackstories" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreBlackStories />
+        </Route>
+        <Route exact path="/movies/britishTV" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreBritishTV />
+        </Route>
+        <Route exact path="/movies/comedy" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreComedy />
+        </Route>
+        <Route exact path="/movies/cooking&food" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreCookingFood />
+        </Route>
+        <Route exact path="/movies/crime" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreCrime />
+        </Route>
+        <Route exact path="/movies/documentary" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreDocumentary />
+        </Route>
+        <Route exact path="/movies/drama" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreDrama />
+        </Route>
+        <Route exact path="/movies/family" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreFamily />
+        </Route>
+        <Route exact path="/movies/fantasy" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreFantasy />
+        </Route>
+        <Route exact path="/movies/horror" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreHorror />
+        </Route>
+        <Route exact path="/movies/international" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreInternational />
+        </Route>
+        <Route exact path="/movies/kids" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreKids />
+        </Route>
+        <Route exact path="/movies/lifestyle&culture" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreLifestyleCulture />
+        </Route>
+        <Route exact path="/movies/latenight" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreLatenight />
+        </Route>
+        <Route exact path="/movies/latino" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreLatino />
+        </Route>
+        <Route exact path="/movies/lgbtq+" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreLGBTQ />
+        </Route>
+        <Route exact path="/movies/mystery" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreMystery />
+        </Route>
+        <Route exact path="/movies/news" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreNews />
+        </Route>
+        <Route exact path="/movies/reality" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreReality />
+        </Route>
+        <Route exact path="/movies/romance" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreRomance />
+        </Route>
+        <Route exact path="/movies/sciencefiction" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreScienceFiction />
+        </Route>
+        <Route exact path="/movies/sitcom" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreSitcom />
+        </Route>
+        <Route exact path="/movies/sketchcomedy" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreSketchComedy />
+        </Route>
+        <Route exact path="/movies/talk&interview" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreTalkInterview />
+        </Route>
+        <Route exact path="/movies/teen" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreTeen />
+        </Route>
+        <Route exact path="/movies/thriller" component={MovieGenreComponent}>
+          <MovieGenreComponent />
+          <MovieGenreThriller />
         </Route>
 
         {/* <Route exact path="/tv/americandad" component={TVTemplate}>

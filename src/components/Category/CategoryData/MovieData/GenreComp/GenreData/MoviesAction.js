@@ -2,369 +2,363 @@ import React from 'react';
 
 export const ActionMovieData = [
   {
-    image: "https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/11/american-dad-rupture-delight.jpg",
+    image: "https://img1.looper.com/img/uploads/2019/04/John-Wick.jpg",
     path: "/movie/action",
-    title: "American Dad",
-    rated: "TV14",
+    title: "John Wick 3",
+    rated: "TVMA",
     genre: "Comedy, Animation",
     year: "(2012)",
-    series: "TV Series"
+    series: "Movie"
   },
   {
-    image: "https://deltastatement.com/wp-content/uploads/2018/10/family-guy.jpg",
+    image: "https://m.media-amazon.com/images/M/MV5BOTdkNGY5YjItOWU5OC00NTA0LTkxMGEtZDRlNWZmMmI2ZGZmXkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_.jpg",
     path: "/movie/action",
-    title: "Family Guy",
-    rated: "TV14",
+    title: "Action",
+    rated: "TVMA",
     genre: "Comedy, Animation",
-    year: "(2009)",
-    series: "TV Series"
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://bloximages.newyork1.vip.townnews.com/redandblack.com/content/tncms/assets/v3/editorial/6/79/6793490c-0828-11e2-b884-0019bb30f31a/524b78e645991.image.jpg",
+    image: "https://www.englishclub.com/images/vocabulary/movies/pusher.jpg",
     path: "/movie/action",
-    title: "Brickleberry",
-    rated: "TV14",
+    title: "PUSHER",
+    rated: "TVMA",
     genre: "Comedy, Animation",
-    year: "(2019)",
-    series: "TV Series"
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://i.guim.co.uk/img/media/b563ac5db4b4a4e1197c586bbca3edebca9173cd/0_12_3307_1985/master/3307.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=61a26bf43da26e4ca97e932e5ee113f7",
+    image: "https://cms-assets.tutsplus.com/uploads/users/71/posts/14079/final_image/final_large3.jpg",
     path: "/movie/action",
-    title: "Rick and Morty",
-    rated: "TV14",
+    title: "Vendetta",
+    rated: "TVMA",
     genre: "Comedy, Animation",
-    year: "(2013)",
-    series: "TV Series"
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://images.tbs.com/tbs/$dyna_params/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F10%2Fvizio-Bobs-Burgers-1920x1080.jpg",
+    image: "https://www.washingtonpost.com/graphics/2019/entertainment/oscar-nominees-movie-poster-design/img/black-panther-web.jpg",
     path: "/movie/action",
-    title: "Bob's Burgers",
-    rated: "TV14",
+    title: "Black Panther",
+    rated: "TVMA",
     genre: "Comedy, Animation",
-    year: "(2011)",
-    series: "TV Series"
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://img.hulu.com/user/v3/artwork/85bf4cc1-cd8b-4469-ad87-7289217a0b74?base_image_bucket_name=image_manager&base_image=ef75950e-cfdc-4dfc-87a2-82b2339a8374&size=1200x630&format=jpeg",
+    image: "https://i.ytimg.com/vi/TuBfY8phrJU/maxresdefault.jpg",
     path: "/movie/action",
-    title: "Futurama",
-    rated: "TV14",
+    title: "Action Hero",
+    rated: "TVMA",
     genre: "Comedy, Animation",
-    year: "(2007)",
-    series: "TV Series"
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://img2.hulu.com/user/v3/artwork/52b8dd8a-eff2-4ed2-9b8d-7c0039df1c53?base_image_bucket_name=image_manager&base_image=7cf9575e-8c18-4d79-ad80-84c242250185&size=1200x630&format=jpeg",
+    image: "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/action-movie-poster-template-design-0f5fff6262fdefb855e3a9a3f0fdd361_screen.jpg?ts=1573101130",
     path: "/movie/action",
-    title: "King of the Hill",
-    rated: "TV14",
+    title: "FREEDOM",
+    rated: "TVMA",
     genre: "Comedy, Animation",
-    year: "(2010)",
-    series: "TV Series"
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/307A0358D2F885D5B0A755ADF8D4AB8411D8C005869E103301C99D0664DC26F8/scale?width=1200&aspectRatio=1.78&format=jpeg",
+    image: "https://lh3.googleusercontent.com/proxy/vcWJ43b58_6i_KW8KF2x5BwI9Tteh3PYpl9hJ1T9_Tag_g1vP6UpAiKUb__4_NTwgUrq8eXf7yTmat6bL2qcEWbJPkNTgcrewMsjvo1o12EVnFKkxRBms4NvTI5DK-t_LHbJdhrB0d5-SdTue7lJwp0gmzHm",
     path: "/movie/action",
-    title: "The Simpsons",
-    rated: "TV14",
+    title: "Drive",
+    rated: "TVMA",
     genre: "Comedy, Animation",
-    year: "(2009)",
-    series: "TV Series"
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://www.denofgeek.com/wp-content/uploads/2013/05/theclevelandshow_main.jpg?fit=1600%2C1200",
+    image: "https://lh3.googleusercontent.com/proxy/zZ-op_NejksnM_AfbTX0lwpacUQar1eUX-YDRobcfPRydZ4L9nBnXP73fXd3lZJ8zXYwe_EK24SklJ5qcycxk8-Vo4x-NIv5gM8SOxEQFyXvyT_QTsKfjjc",
     path: "/movie/action",
-    title: "The Cleveland Show",
-    rated: "TV14",
+    title: "Dhoom 3",
+    rated: "TVMA",
     genre: "Comedy, Animation",
-    year: "(2013)",
-    series: "TV Series"
-  },
-
-
-
-
-
-
-
-
-
-  {
-    image: "https://images-na.ssl-images-amazon.com/images/I/71I6RiEkXUL._RI_.jpg",
-    path: "/movie/action",
-    title: "90 Day Finace",
-    rated: "TVPG",
-    genre: "Documentaries, Reality",
-    year: "(2017)",
-    series: "TV Series"
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://pbs.twimg.com/profile_images/1217482051051352064/5q7qlHC5_400x400.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Tenet_movie_poster.jpg/220px-Tenet_movie_poster.jpg",
     path: "/movie/action",
-    title: "Survivor",
-    rated: "TVPG",
-    genre: "Reality, Action",
-    year: "(2014)",
-    series: "TV Series"
-  },
-  {
-    image: "https://www.famousbirthdays.com/group_images/medium/black-ink-crew-show.jpg",
-    path: "/movie/action",
-    title: "Black Ink Crew",
-    rated: "TV14",
-    genre: "Reality, Black Stories",
-    year: "(2016)",
-    series: "TV Series"
-  },
-  {
-    image: "https://img1.hulu.com/user/v3/artwork/d2317943-3eaf-496b-ab1f-aef2c4097369?base_image_bucket_name=image_manager&base_image=266a933b-fea7-4165-90a4-a15bec6a57c6&size=1200x630&format=jpeg&operations=%5B%7B%22gradient_vector%22%3A%22(0%2C0%2C0%2C0.5)%7C(0%2C0%2C0%2C0)%7C(0%2C600)%7C(0%2C240)%22%7D%2C%7B%22overlay%22%3A%7B%22position%22%3A%22SouthEast%7C(30%2C30)%22%2C%22operations%22%3A%5B%7B%22image%22%3A%22image_manager%7C6bb7df88-1d56-49a7-b119-e1c8f44ffce3%22%7D%2C%7B%22resize%22%3A%22204x204%7Cmax%22%7D%2C%7B%22extent%22%3A%22204x204%22%7D%5D%7D%7D%2C%5D",
-    path: "/movie/action",
-    title: "Jersey Shore",
-    rated: "TVPG",
-    genre: "Reality, Action",
-    year: "(2013)",
-    series: "TV Series"
-  },
-  {
-    image: "https://cdn1.edgedatg.com/aws/v2/abc/TheBachelor/showimages/b93bce3677662d5923faecfcd697ccfe/408x228-Q90_b93bce3677662d5923faecfcd697ccfe.jpg",
-    path: "/movie/action",
-    title: "The Bachelor",
-    rated: "TV14",
-    genre: "Reality, Romance",
-    year: "(2098)",
-    series: "TV Series"
-  },
-  {
-    image: "https://image.cnbcfm.com/api/v1/image/101317308-show-thumb-sharktank-1600x900.jpg?v=1532631189",
-    path: "/movie/action",
-    title: "Shark Tank",
-    rated: "TVPG",
-    genre: "Reality, Business & Finance",
-    year: "(2009)",
-    series: "TV Series"
-  },
-  {
-    image: "https://assets.foxdcg.com/dpp-uploaded/images/masterchef/keyart_s10.jpg",
-    path: "/movie/action",
-    title: "MasterChef",
-    rated: "TVPG",
-    genre: "Reality, Lifestyle & Culture",
-    year: "(2015)",
-    series: "TV Series"
-  }, {
-    image: "https://i0.wp.com/www.ukairdates.com/wp-content/uploads/2018/09/fuck-thats-delicious-1.jpg?fit=1000%2C760&ssl=1",
-    path: "/movie/action",
-    title: "F*ck, That's Delicious",
-    rated: "TV14",
-    genre: "Reality, Lifestyle & Culture",
-    year: "(2019)",
-    series: "TV Series"
-  },
-  {
-    image: "https://www.abc.net.au/cm/rimage/12645934-3x2-large.jpg?v=2",
-    path: "/movie/action",
-    title: "Keeping up with the Kardashians",
-    rated: "TV14",
-    genre: "Reality",
-    year: "(2006)",
-    series: "TV Series"
-  },
-  {
-    image: "https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/discovery-DSC_GOLDRUSH_SN_09-Full-Image_GalleryCover-en-US-1540595472204._UY500_UX667_RI_VwCNR9c87iTULXSgT2Dj0T4XQESFhTYIk_TTW_.jpg",
-    path: "/movie/action",
-    title: "Gold Rush",
-    rated: "TVPG",
-    genre: "Reality",
-    year: "(2010)",
-    series: "TV Series"
-  },
-  {
-    image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/street-outlaws-the-list-switch/street-outlaws-the-list-switch-hero.jpg",
-    path: "/movie/action",
-    title: "Street Outlaws",
-    rated: "TVPG",
-    genre: "Sports, Documentaries",
-    year: "(2015)",
-    series: "TV Series"
-  },
-  {
-    image: "https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2020/11/ancient-aliens-s12c-2048x1152-promo-16x9-1.jpg",
-    path: "/movie/action",
-    title: "Ancient Aliens",
-    rated: "TV14",
-    genre: "Documentaries, Reality",
-    year: "(2017)",
-    series: "TV Series"
-  },
-  {
-    image: "https://benjamindavidelliott.files.wordpress.com/2013/10/filepicker_jpprecp4smmmeacen5aj_band_of_brothers.jpg",
-    path: "/movie/action",
-    title: "Band of Brothers",
+    title: "Tenet",
     rated: "TVMA",
-    genre: "Drama",
-    year: "(2020)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://www.gannett-cdn.com/presto/2021/01/15/USAT/71215053-5e33-4bf0-9aee-35e30fcd6ce6-tiger1.png",
+    image: "https://wallpapercave.com/wp/UeJv6hp.jpg",
     path: "/movie/action",
-    title: "Tiger",
+    title: "ERAGON",
     rated: "TVMA",
-    genre: "Sports, Documentaries",
-    year: "(2019)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://images-na.ssl-images-amazon.com/images/I/91O5ckEE3lL._RI_.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTISkf8UMObW8emiYUVLsK0JAhju9Lo1NMTIw&usqp=CAU",
     path: "/movie/action",
-    title: "Real Time With Bill Maher",
+    title: "Lord of the Rings",
     rated: "TVMA",
-    genre: "Talk & Interviews, Comedy",
-    year: "(2021)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "http://www.nerdinfinite.com/wp-content/uploads/bfi_thumb/The-SopranosE-Season-6-Poster-o2ejtwhpn85g9x6nxi4q69nrhemliosltufk6ljgfs.jpg",
+    image: "http://yeinjee.com/wp-content/uploads/2014/11/attack-titan-2.jpg",
     path: "/movie/action",
-    title: "The Sopranos",
+    title: "Attack on Titan",
     rated: "TVMA",
-    genre: "Drama, Crime",
-    year: "(2019)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://hbomax-images.warnermediacdn.com/images/GXKN_xQX5csPDwwEAAABj/tileburnedin?size=1280x720&format=jpeg&partner=hbomaxcom&productCode=hbomax&host=artist.api.cdn.hbo.com&w=1200",
+    image: "https://crimsonnews.org/wp-content/uploads/2016/02/Maleficent.jpg",
     path: "/movie/action",
-    title: "Euphoria",
+    title: "Maleficent",
     rated: "TVMA",
-    genre: "Drama, Black Stories",
-    year: "(2021)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/commons/d/de/Curbyourenthusiasm.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIMQTTIb3GM5ISBRW2-K-agnl2He-jVHMNsA&usqp=CAU",
     path: "/movie/action",
-    title: "Curb Your Enthusiasm",
+    title: "Fast & Furious",
     rated: "TVMA",
-    genre: "Comedy, Sitcom",
-    year: "(2021)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://otakukart.com/wp-content/uploads/2021/01/Westworld-Season-4-The-Buzz-Paper.jpg",
+    image: "https://www.japantrends.com/japan-trends/wp-content/uploads/2014/11/attack-on-titan-shingeki-no-kyojin-film-movie-live-action-poster-main-300x259.jpg",
     path: "/movie/action",
-    title: "Westworld",
+    title: "Shikishima",
     rated: "TVMA",
-    genre: "Drama, Mystery",
-    year: "(2019)",
-    series: "TV Series"
-  }, {
-    image: "https://hbomax-images.warnermediacdn.com/images/GVU2gkAgT4oNJjhsJAUDk/tileburnedin?size=1280x720&format=jpeg&partner=hbomaxcom&productCode=hbomax&host=artist.api.cdn.hbo.com&w=1200",
-    path: "/movie/action",
-    title: "The Wire",
-    rated: "TVMA",
-    genre: "Drama, Crime",
-    year: "(2021)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://www.dkoding.in/wp-content/uploads/True-Blood-Trending-Today-DKODING.jpg",
+    image: "https://gizmostory.com/wp-content/uploads/2020/12/The-Bourne-Identity.jpg",
     path: "/movie/action",
-    title: "True Blood",
+    title: "Bourne Identity",
     rated: "TVMA",
-    genre: "Drama, Mystery",
-    year: "(2020)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://hbowatch.com/wp-content/uploads/2019/05/Warrior.png",
+    image: "https://bleedingcool.com/wp-content/uploads/2017/11/FantasticFourPoster.jpg",
     path: "/movie/action",
-    title: "Warrior",
+    title: "Fantastic 4",
     rated: "TVMA",
-    genre: "Action, Drama",
-    year: "(2021)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://hbowatch.com/wp-content/uploads/2021/01/30Coins_Title.png",
+    image: "https://www.liveabout.com/thmb/5rMNqIcJCiK6DAXJBZN9fy7sUdA=/1320x894/filters:no_upscale():max_bytes(150000):strip_icc()/johnwick-f38cdfe056cd40f2a6ea4e3928fc8a53.png",
     path: "/movie/action",
-    title: "30 Coins",
+    title: "John Wick",
     rated: "TVMA",
-    genre: "Drama, International",
-    year: "(2020)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/satc-bug-1527685174.jpg",
+    image: "https://fourcoloursandthetruth.files.wordpress.com/2011/09/attack-the-block-movie-poster.jpg",
     path: "/movie/action",
-    title: "Sex and the City",
+    title: "Attack The Block",
     rated: "TVMA",
-    genre: "Comedy, Drama",
-    year: "(20017)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://upload.wikimedia.org/wikipedia/en/d/dc/Lovecraft_Country_%28TV_series%29.jpg",
+    image: "https://imgix.ranker.com/user_node_img/110/2186618/original/the-dark-knight-films-photo-u19?fit=crop&fm=pjpg&q=60&w=144&h=144&dpr=2",
     path: "/movie/action",
-    title: "Lovecraft Country",
+    title: "Batman",
     rated: "TVMA",
-    genre: "Drama",
-    year: "(2020)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://i0.wp.com/strikefans.com/wp-content/uploads/2020/12/cb-strike.jpg?fit=2026%2C1557",
+    image: "https://graphicriver.img.customer.envatousercontent.com/files/167430289/presentation.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=aa8de2a276c4593a41583158b275e7ec",
     path: "/movie/action",
-    title: "C.B. Strike",
+    title: "Technical",
     rated: "TVMA",
-    genre: "Drama, Crime",
-    year: "(2015)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://m.media-amazon.com/images/I/51mXiGZbPCL._SL500_.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Movie_poster_i_robot.jpg/220px-Movie_poster_i_robot.jpg",
     path: "/movie/action",
-    title: "His Dark Materials",
+    title: "I.ROBOT",
     rated: "TVMA",
-    genre: "Action, Drama",
-    year: "(2018)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://hbomax-images.warnermediacdn.com/images/GXJvkMAU0JIG6gAEAAAIo/tileburnedin?size=1280x720&format=jpeg&partner=hbomaxcom&productCode=hbomax&host=artist.api.cdn.hbo.com&w=1200",
+    image: "https://static2.showtimes.com/poster/160x236/godzilla-vs-kong-150409.jpg",
     path: "/movie/action",
-    title: "Chernobyl",
+    title: "GODZILLA v. KONG",
     rated: "TVMA",
-    genre: "Drama, History",
-    year: "(2019)",
-    series: "TV Series"
-  }, {
-    image: "https://images-na.ssl-images-amazon.com/images/I/81dxknKyVML._RI_.jpg",
-    path: "/movie/action",
-    title: "Veep",
-    rated: "TVMA",
-    genre: "Comedy, Sitcom",
-    year: "(2019)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://static.highsnobiety.com/thumbor/_ycmP5p2oKDNKjrMSt9Mj32XBVA=/1600x1067/static.highsnobiety.com/wp-content/uploads/2019/02/28155042/game-of-thrones-season-8-posters-01.jpg",
+    image: "https://m.media-amazon.com/images/M/MV5BMjE1ODM3MTI5MF5BMl5BanBnXkFtZTcwNjc3MDcxNQ@@._V1_.jpg",
     path: "/movie/action",
-    title: "Game of Thrones",
+    title: "Tekken",
     rated: "TVMA",
-    genre: "Drama, Fantasy",
-    year: "(2020)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
   {
-    image: "https://img.etimg.com/thumb/width-640,height-480,imgsize-786692,resizemode-1,msid-78890905/magazines/panache/good-news-season-3-of-big-little-lies-is-finally-happening-confirms-nicole-kidman/nicole-kidman-centre-is-featured-in-the-david-e-kelley-created-series-alongside-the-likes-reese-witherspoon-3rd-left-shailene-woodley-right-laura-dern-left-and-zoe-kravitz-2nd-right-.jpg",
+    image: "https://d2j1wkp1bavyfs.cloudfront.net/image-assets/558574/nQbd4u1NrvcXUbfnmCQYxkF5GIC.jpg?d=360x540&q=50",
     path: "/movie/action",
-    title: "Big Little Lies",
+    title: "Echo Boomers",
     rated: "TVMA",
-    genre: "Drama, Crime",
-    year: "(2020)",
-    series: "TV Series"
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://graphicriver.img.customer.envatousercontent.com/files/146533694/presentation.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=2200a4716d3772139e804ecbb20fd32b",
+    path: "/movie/action",
+    title: "Zombie Apocalypse",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://i.ytimg.com/vi/aHbUkniW9CM/maxresdefault.jpg",
+    path: "/movie/action",
+    title: "SAAYA",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://lh3.googleusercontent.com/proxy/FCC_RGvSpbQ7kMM4FZDPL7i13oHgBoVXhqKPkQwQ_xyHYN6VFGcCtw3F2TlMTipXgJ5MhPN3UfW7UQ5YOesEA6suBxkbRZKIb1uzEvyysD-3bGptOpEoGWR7z5aDH4O9IySr42FthABGZcnPnhpi6j-hKcgSvdixz7OW574",
+    path: "/movie/action",
+    title: "The 300",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://lh3.googleusercontent.com/proxy/aW4JnhCS47en_WJnXhVjYkvbn8VbxmYSIwtQW7YYjsh77_f-TMikNDPvvPErXK9PaCd1r-dPATPZS8xydmhP0n_G-cPfFbzuSJY_wgLhb6PEUfJVxA",
+    path: "/movie/action",
+    title: "Kill Bill",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://static.rogerebert.com/uploads/movie/movie_poster/20-2018/widget_20-poster.jpg",
+    path: "/movie/action",
+    title: "Reloaded",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJEZE2da1Ak3jxrAMfcgEpM2Ej7G2xeZSMw&usqp=CAU",
+    path: "/movie/action",
+    title: "Thor",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://media.santabanta.com/medium1/hollywood%20movies/vanguard/vanguard-0a.jpg",
+    path: "/movie/action",
+    title: "Jackie Chan",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://i.pinimg.com/originals/f1/c9/2a/f1c92a12ba266ee92f02652288360803.jpg",
+    path: "/movie/action",
+    title: "Transporter 3",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS34LvFZ6BBkxBUgLLrpzXL_J-0wTO1cZJ9qQ&usqp=CAU",
+    path: "/movie/action",
+    title: "Avengers Infinity War",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLaVKq8xM0FGahPrW0vQlQvAd9pt9B2LPMdg&usqp=CAU",
+    path: "/movie/action",
+    title: "Outcast",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://c8.alamy.com/comp/D5K2DJ/liam-neeson-poster-the-grey-2012-D5K2DJ.jpg",
+    path: "/movie/action",
+    title: "The Grey",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://i.pinimg.com/originals/72/9a/35/729a35bfdc6a5fa9cb97ae3a3668a96d.jpg",
+    path: "/movie/action",
+    title: "Urban Justice",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://i.pinimg.com/originals/01/eb/51/01eb513d05fd0f43c57f80bdf96d022c.png",
+    path: "/movie/action",
+    title: "Rescuer",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
+  },
+  {
+    image: "https://images-na.ssl-images-amazon.com/images/I/51E4xdHPdQL._AC_SX466_.jpg",
+    path: "/movie/action",
+    title: "Beowulf",
+    rated: "TVMA",
+    genre: "Comedy, Animation",
+    year: "(2012)",
+    series: "Movie"
   },
 ]

@@ -8,7 +8,7 @@ function GenreAction() {
     <div className="genre-main__container">
       <div className="genre-main__outer">
         <div className="genre-main__heading">
-          <p>action movies</p>
+          <p>LGBTQ+ movies</p>
         </div>
         <div className="genre-main__card-container">
           <div className="genre-main__card-outer">
