@@ -11,6 +11,7 @@ import MyStuff from './components/Category/MyStuff';
 import TV from './components/Category/TV';
 import Movies from './components/Category/Movies';
 import Networks from './components/Category/Networks';
+import Footer from './components/Footer';
 
 import TVTemplate from './components/Category/CategoryData/TVData/TVTemplate';
 
@@ -364,6 +365,7 @@ function App() {
           <GenreThriller />
         </Route> */}
       </Switch>
+      <Footer />
     </Router>
   );
 }
