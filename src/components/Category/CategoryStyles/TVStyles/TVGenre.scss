@@ -42,7 +42,8 @@
           .genre-main__info {
             padding: 3px 5px;
             p {
-              color: rgb(255, 255, 255);
+              color: rgb(165, 153, 153);
+              font-size: 0.9em;
               overflow: hidden;
               text-overflow: ellipsis;
               display: -webkit-box;
@@ -58,6 +59,9 @@
         .genre-main__card:hover {
           background: rgba(78, 73, 73, 0.6);
           transition: all 0.3s ease;
+          p {
+            color: white;
+          }
         }
       }
     }

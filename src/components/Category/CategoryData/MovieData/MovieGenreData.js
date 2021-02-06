@@ -19,12 +19,6 @@ export const MovieGenreData = [
     path: "/movies/adventure"
   },
   {
-    title: "Animals & Nature Movies",
-    image: "",
-    channel: "Details",
-    path: "/movies/animals&nature"
-  },
-  {
     title: "Anime Movies",
     image: "",
     channel: "Details",
@@ -47,12 +41,6 @@ export const MovieGenreData = [
     image: "",
     channel: "Details",
     path: "/movies/comedy"
-  },
-  {
-    title: "Cooking & Food Movies",
-    image: "",
-    channel: "Details",
-    path: "/movies/cooking&food"
   },
   {
     title: "Crime Movies",
@@ -119,11 +107,6 @@ export const MovieGenreData = [
     image: "",
     channel: "Details",
     path: "/movies/lgbtq+"
-  },  {
-    title: "Lifestyle & Culture Movies",
-    image: "",
-    channel: "Details",
-    path: "/movies/lifestyle&culture"
   },
   {
     title: "Mystery Movies",
@@ -165,12 +148,6 @@ export const MovieGenreData = [
     image: "",
     channel: "Details",
     path: "/movies/sketchcomedy"
-  },
-  {
-    title: "Talk & Interview Movies",
-    image: "",
-    channel: "Details",
-    path: "/movies/talk&interview"
   },
   {
     title: "Teen Movies",
