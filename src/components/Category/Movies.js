@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MovieGenreData } from './CategoryData/MovieData/MovieGenreData';
 import { MoviePopularData } from './CategoryData/MovieData/MoviePopularData';
+import { MovieFeaturedData } from './CategoryData/MovieData/MovieFeaturedData';
 
 import './CategoryStyles/MovieStyles/Movie.scss';
 
@@ -67,7 +68,7 @@ function Movies() {
         </div>
         <div className="movie__movie-card-container">
           <div className="movie-for-you__outer">
-            {MoviePopularData.map((item, index) => {
+            {MovieFeaturedData.map((item, index) => {
               return (
                 <div key={index} className="movie-for-you__container">
                   <Link to={item.path} >
@@ -175,7 +176,7 @@ function Movies() {
       </div>
       <div className="movie__container">
         <div className="movie__heading">
-          <p>award-winning films</p>
+          <p>drama</p>
         </div>
         <div className="movie__movie-card-container">
           <div className="movie-for-you__outer">
