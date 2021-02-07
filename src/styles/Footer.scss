@@ -4,8 +4,8 @@
   // align-items: center;
   justify-content: center;
   // grid-gap: 20px;
-  grid-column-gap: 40px;
-  grid-row-gap: 30px;
+  // grid-column-gap: 40px;
+  // grid-row-gap: 30px;
   height: 100%;
   padding: 50px 10px;
   // padding-bottom: 20px;
@@ -20,6 +20,7 @@
       font-size: 0.9em;
     }
     ul {
+      padding: 20px;
       li {
         color: #a59999;
         list-style: none;
