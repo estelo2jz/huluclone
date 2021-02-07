@@ -31,12 +31,6 @@ export const MovieGenreData = [
     path: "/movies/blackstories"
   },
   {
-    title: "British TV Movies",
-    image: "",
-    channel: "Details",
-    path: "/movies/britishTV"
-  },
-  {
     title: "Comedy Movies",
     image: "",
     channel: "Details",
