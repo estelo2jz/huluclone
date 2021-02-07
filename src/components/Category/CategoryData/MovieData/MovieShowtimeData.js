@@ -9,7 +9,7 @@ export const MovieShowtimeData = [
     series: "Movie"
   },
   {
-    image: "",
+    image: "https://i.ytimg.com/vi/ovgjEO7MuAw/maxresdefault.jpg",
     path: "/movies",
     title: "",
     rated: "TV14",

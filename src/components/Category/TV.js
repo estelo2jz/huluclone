@@ -361,7 +361,7 @@ function TV() {
         </div>
         <div className="tv__container">
           <div className="tv__heading">
-            <p>bing-worthy tv</p>
+            <p>game shows</p>
           </div>
           <div className="tv__movie-card-container">
             <div className="tv-for-you__outer">
@@ -387,7 +387,7 @@ function TV() {
             </div>
           </div>
         </div>
-        <div className="tv__container">
+        {/* <div className="tv__container">
           <div className="tv__heading">
             <p>investigation tv</p>
           </div>
@@ -694,7 +694,7 @@ function TV() {
               })}
             </div>
           </div>
-        </div>
+        </div> */}
     </div>
     </div>
   )

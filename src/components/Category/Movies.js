@@ -3,6 +3,13 @@ import { Link } from 'react-router-dom';
 import { MovieGenreData } from './CategoryData/MovieData/MovieGenreData';
 import { MoviePopularData } from './CategoryData/MovieData/MoviePopularData';
 import { MovieFeaturedData } from './CategoryData/MovieData/MovieFeaturedData';
+import { MovieBlockbusterData } from './CategoryData/MovieData/MovieBlockbusterData';
+import { MovieRaunchyData } from './CategoryData/MovieData/MovieRaunchyData';
+import { MovieActionData } from './CategoryData/MovieData/MovieActionData';
+import { MovieDramaData } from './CategoryData/MovieData/MovieDramaData';
+import { MovieCinemaxData } from './CategoryData/MovieData/MovieCinemaxData';
+import { MovieHBOData } from './CategoryData/MovieData/MovieHBOData';
+import { MovieHorrorData } from './CategoryData/MovieData/MovieHorrorData';
 
 import './CategoryStyles/MovieStyles/Movie.scss';
 
@@ -96,7 +103,7 @@ function Movies() {
         </div>
         <div className="movie__movie-card-container">
           <div className="movie-for-you__outer">
-            {MoviePopularData.map((item, index) => {
+            {MovieBlockbusterData.map((item, index) => {
               return (
                 <div key={index} className="movie-for-you__container">
                   <Link to={item.path} >
@@ -120,11 +127,11 @@ function Movies() {
       </div>
       <div className="movie__container">
         <div className="movie__heading">
-          <p>comedy movies</p>
+          <p>raunchy movies</p>
         </div>
         <div className="movie__movie-card-container">
           <div className="movie-for-you__outer">
-            {MoviePopularData.map((item, index) => {
+            {MovieRaunchyData.map((item, index) => {
               return (
                 <div key={index} className="movie-for-you__container">
                   <Link to={item.path} >
@@ -152,7 +159,7 @@ function Movies() {
         </div>
         <div className="movie__movie-card-container">
           <div className="movie-for-you__outer">
-            {MoviePopularData.map((item, index) => {
+            {MovieActionData.map((item, index) => {
               return (
                 <div key={index} className="movie-for-you__container">
                   <Link to={item.path} >
@@ -180,7 +187,7 @@ function Movies() {
         </div>
         <div className="movie__movie-card-container">
           <div className="movie-for-you__outer">
-            {MoviePopularData.map((item, index) => {
+            {MovieDramaData.map((item, index) => {
               return (
                 <div key={index} className="movie-for-you__container">
                   <Link to={item.path} >
@@ -208,7 +215,7 @@ function Movies() {
         </div>
         <div className="movie__movie-card-container">
           <div className="movie-for-you__outer">
-            {MoviePopularData.map((item, index) => {
+            {MovieCinemaxData.map((item, index) => {
               return (
                 <div key={index} className="movie-for-you__container">
                   <Link to={item.path} >
@@ -236,7 +243,7 @@ function Movies() {
         </div>
         <div className="movie__movie-card-container">
           <div className="movie-for-you__outer">
-            {MoviePopularData.map((item, index) => {
+            {MovieHBOData.map((item, index) => {
               return (
                 <div key={index} className="movie-for-you__container">
                   <Link to={item.path} >
@@ -259,6 +266,34 @@ function Movies() {
         </div>
       </div>
       <div className="movie__container">
+        <div className="movie__heading">
+          <p>horror-thrillers</p>
+        </div>
+        <div className="movie__movie-card-container">
+          <div className="movie-for-you__outer">
+            {MovieHorrorData.map((item, index) => {
+              return (
+                <div key={index} className="movie-for-you__container">
+                  <Link to={item.path} >
+                    <div className="movie-for-you__img">
+                      <img src={item.image} alt="" />
+                    </div>
+                    <div className="movie-for-you__info">
+                      <div className="movie-for-you__info-title">
+                        <p>{item.title}</p>
+                      </div>
+                      <div className="movie-for-you__info-bio">
+                        <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+      {/* <div className="movie__container">
         <div className="movie__heading">
           <p>showtime</p>
         </div>
@@ -285,8 +320,8 @@ function Movies() {
             })}
           </div>
         </div>
-      </div>
-      <div className="movie__container">
+      </div> */}
+      {/* <div className="movie__container">
         <div className="movie__heading">
           <p>starz</p>
         </div>
@@ -429,34 +464,6 @@ function Movies() {
       <div className="movie__container">
         <div className="movie__heading">
           <p>raunchy movies</p>
-        </div>
-        <div className="movie__movie-card-container">
-          <div className="movie-for-you__outer">
-            {MoviePopularData.map((item, index) => {
-              return (
-                <div key={index} className="movie-for-you__container">
-                  <Link to={item.path} >
-                    <div className="movie-for-you__img">
-                      <img src={item.image} alt="" />
-                    </div>
-                    <div className="movie-for-you__info">
-                      <div className="movie-for-you__info-title">
-                        <p>{item.title}</p>
-                      </div>
-                      <div className="movie-for-you__info-bio">
-                        <p>{item.rated} &#8226; {item.genre} &#8226; {item.series} {item.year}</p> 
-                      </div>
-                    </div>
-                  </Link>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-      <div className="movie__container">
-        <div className="movie__heading">
-          <p>horror-thrillers</p>
         </div>
         <div className="movie__movie-card-container">
           <div className="movie-for-you__outer">
@@ -761,7 +768,7 @@ function Movies() {
             })}
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
