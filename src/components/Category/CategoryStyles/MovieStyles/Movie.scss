@@ -19,6 +19,7 @@
     margin-left: 20px;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: clamp(1em, 2vw, 1.2rem);
   }
   .movie__movie-card-container {
     width: 100%;
@@ -82,6 +83,10 @@
 }
 .movie__container {
   .movie__movie-card-container {
+    padding: 5px 10px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     .movie-for-you__outer {
       display: flex;
       justify-content: center;
@@ -127,8 +132,8 @@
           color: white;
           .movie-for-you__info-title {
             padding: 10px 0px;
-            font-size: 1.1em;
             p {
+              font-size: clamp(0.9em, 2vw, 1rem);
               color: rgb(255, 255, 255);
               overflow: hidden;
               text-overflow: ellipsis;
@@ -144,8 +149,8 @@
             padding: 5px 0px;
             // display: flex;
             // align-items: center;
-            font-size: 0.9em;
             p {
+              font-size: clamp(0.9em, 2vw, 1rem);
               color: rgb(255, 255, 255);
               overflow: hidden;
               text-overflow: ellipsis;

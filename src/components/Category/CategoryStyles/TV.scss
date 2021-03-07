@@ -16,7 +16,7 @@
     color: white;
     padding: 0px 0px;
     padding-top: 5px;
-    font-size: 1.3em;
+    font-size: clamp(1em, 2vw, 1.2rem);
     margin-left: 20px;
     text-transform: uppercase;
     font-weight: 700;
@@ -72,7 +72,7 @@
 }
 .tv__container {
   .tv__movie-card-container {
-    padding: 5px 0px;
+    padding: 5px 10px;
     .tv-for-you__outer {
       display: flex;
       justify-content: center;
@@ -85,7 +85,7 @@
         justify-content: center;
         align-items: center;
         padding: 40px 0px;
-        width: 320px;
+        width: 100%;
         height: 100%;
         overflow: hidden;
         padding: 5px;
@@ -94,12 +94,14 @@
           text-decoration: none;
         }
         .tv-for-you__img {
+          // max-width: 40%;
           display: flex;
           justify-content: center;
           align-items: center;
           overflow: hidden;
-          width: 310px;
-          height: 200px;
+          width: 280px;
+          // max-width: 100%;
+          height: 170px;
           border-radius: 5px;
           img {
             width: 100%;
@@ -117,8 +119,8 @@
           color: white;
           .tv-for-you__info-title {
             padding: 10px 0px;
-            font-size: 1.1em;
             p {
+              font-size: clamp(0.9em, 2vw, 1rem);
               color: rgb(255, 255, 255);
               overflow: hidden;
               text-overflow: ellipsis;
@@ -134,8 +136,9 @@
             padding: 5px 0px;
             // display: flex;
             // align-items: center;
-            font-size: 0.9em;
+            // font-size: 0.9em;
             p {
+              font-size: clamp(0.9em, 2vw, 1rem);
               color: rgb(255, 255, 255);
               overflow: hidden;
               text-overflow: ellipsis;
